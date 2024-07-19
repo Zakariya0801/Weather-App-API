@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* margin-bottom: 30px; */
+}
+body {
+    background-image: url('images/background.png');
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+body h1{
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar{
+    align-items: right;
+    display: flex;
+    justify-content: right;
+    background-color: black;
+    /* padding-top: 1.5em;
+    padding-bottom: 1.5em; */
+    margin-bottom: 0;
+}
+.navbar a{
+    margin-right: auto;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.navbar img{
+    display: inline-block;
+    left: 0;
+    width: 5em;
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 0.5em;
+    margin-bottom: 0;
+}
+.navbar span{
+    border-width: 3px;
+    border-color: black;
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1.2em;
+    padding-top: 1em;
+    font-size: 1.3em;
+    transition: color 0.3s;
+    color: white;
+    margin-bottom: 0;
+}
+
+.navbar span a{
+    color: white;
+    text-decoration: none;
+}
+.navbar span :hover{
+    color:lightcoral    
+    
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* border-color: black; */
+/* border-width: 50px; */
+}
+.main-app{
+    background-color: rgb(54, 49, 207);
+    color: white;
+    /* display: inline-block; */
+    /* margin-left: 25%; */
+    width: 40em;
+    height: 25em;
+    text-align: center;
+    /* display: flex; */
+    border-radius: 20px;
+    border-width: 0;
+    justify-content: center;
+    opacity:calc(0.8);
+}
+footer{
+    margin-top: 20%;
+}
+/* .error-message{
+    margin-top: 10%;
+}  */
+
+.main-app form{
+    margin-top: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main-app form input{
+    height: 2em;
+    width: 25em;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: aliceblue;
+    padding-left: 15px;
+    /* opacity: calc(1); */
+}
+.main-app form button{
+    height: 2em;
+    width: 5em;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    transition: 0.6s;
+}
+.place{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* display: block; */
+}
+.temperature span{
+    font-size: 2em;
+    margin-bottom: 0;
+}
+.icon-weather{
+    margin-bottom: 0;
+}
+.icon{
+    display: inline-block;
+    margin-bottom: 0;
+    /* row-span: ; */
+}
+.weatherinfo{
+    display: inline-block;
+}
+.icon img{
+    width: 6em
+}
+.date{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* display: block; */
+}
+.main-app form button:hover{
+    background-color: white;
+    color: black;
+}
